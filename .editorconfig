@@ -1,3 +1,10 @@
-dotnet_diagnostic.IDE0045.severity = error
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
 
-dotnet_style_prefer_conditional_expression_over_assignment = false
+# C# files
+[*.cs]
+
+# Use conditional expression for assignment
+dotnet_diagnostic.IDE0045.severity = suggestion
+
+dotnet_style_prefer_conditional_expression_over_assignment = true
