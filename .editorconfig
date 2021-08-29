@@ -1,0 +1,3 @@
+dotnet_diagnostic.IDE0045.severity = error
+
+dotnet_style_prefer_conditional_expression_over_assignment = false
